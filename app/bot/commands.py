@@ -26,7 +26,7 @@ class Commands(commands.Cog):
 
     @commands.command(
         name="globodesexo",
-        aliases=["globosexo", "globear", "globo", "gs"],
+        aliases=["globosexo", "globear", "globo", "gs", "g"],
     )
     async def globodesexo(self, ctx: commands.Context[GlobeadoBot]) -> None:
         assert ctx.message is not None
